@@ -1,8 +1,11 @@
 import Link from "next/link";
-import Header from "../components/Header";
 import NavBar from "../components/NavBar";
-import RestaurantCard from "../components/RestaurantCard";
+import RestaurantCard from "./components/RestaurantCard";
 import SearchSideBar from "./components/SearchSideBar";
+import Header from "./components/Header";
+
+// ./components = search directory components
+// ../components = app directory components 
 
 export default function Search() {
   return (
